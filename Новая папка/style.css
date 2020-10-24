@@ -1,0 +1,119 @@
+body{
+  background: url(img/bg.png);
+}
+
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #808080;
+  max-width: 1980px;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav{
+  margin-right: 200px;
+}
+
+.nav a{
+  color: #808080;
+  font-size: 25px;
+}
+
+.nav a:hover{
+  color: #808080;
+}
+
+.main-content{
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main-btn{
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+
+}
+
+a.button {
+  display: inline-block;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+a.button-red {
+  background-color: red;
+}
+
+a.button-green {
+  background-color: green;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: #808080;
+  max-width: 1980px;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-text{
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.footer-links{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a{
+  color: #212529;
+  margin: 5px;
+}
+
+.footer-links a:hover{
+  color: #212529;
+}
+
+.footer-text::before{
+  content: url(img/copyright.png);
+  vertical-align: -20%;
+  position: relative;
+}
+
+.vk::before{
+  content: url(img/vk.png);
+  vertical-align: -20%;
+  position: absolute;
+  left: -25px;
+}
+
+.inst::before{
+  content: url(img/inst.png);
+  vertical-align: -20%;
+  position: absolute;
+  left: -25px;
+}
+
+.git::before{
+  content: url(img/git.png);
+  vertical-align: -20%;
+  position: absolute;
+  left: -25px;
+}
+
